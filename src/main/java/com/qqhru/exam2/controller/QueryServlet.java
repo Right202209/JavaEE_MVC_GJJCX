@@ -28,7 +28,7 @@ public class QueryServlet extends HttpServlet {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/test_db";
             String username = "root";
-            String password = "csqszq";
+            String password = "root";
             connection = DriverManager.getConnection(url, username, password);
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
